@@ -4,7 +4,7 @@ import { FaCartPlus } from "react-icons/fa"
 
 export default function Hero() {
   return (
-    <div className='h-screen px-6 my-6 flex justify-start items-center bg-center bg-cover hero-bg-image md:py-10'>
+    <div className='h-screen px-6 my-6 flex justify-end items-center bg-center bg-cover hero-bg-image md:py-10'>
         <div className='absolute top-0 left-0 right-0 bottom-0 z-[2] ' />
         <div className='text-white z-[2]'>
             <span className='bg-blue-600 text-white p-2'>Sale 70%</span>
