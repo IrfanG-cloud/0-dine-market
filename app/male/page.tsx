@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Male(){
   return (
-    <div className="w-full mt-20">
+    <div className="w-full my-20">
         <div className='grid grid-cols-1 md:grid-cols-4 gap-x-1 px-6'>
         <div className="item py-4">
             <Link href="/products/id">

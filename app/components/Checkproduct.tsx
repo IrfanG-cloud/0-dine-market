@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Checkproduct() {
   return (
-    <div className="w-full mt-16">
+    <div className="w-full my-16">
         <div className='text-center py-6'>
             <span className='text-1xl text-[var(--primary-color)]'>
                 Product
