@@ -7,9 +7,9 @@ export default function Male(){
     <div className="w-full mt-20">
         <div className='grid grid-cols-1 md:grid-cols-4 gap-x-1 px-6'>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
             <Image
-                src="/pro1.png"
+                src="/man3.png"
                 width={600}
                 height={800}
                 alt="Picture of the tshirt"
@@ -19,9 +19,9 @@ export default function Male(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/kid1.png"
+                    src="/man4.png"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -31,7 +31,7 @@ export default function Male(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
                     src="/man2.jpg"
                     width={600}
@@ -43,9 +43,9 @@ export default function Male(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
             <Image
-                src="/pro1.png"
+                src="/man5.png"
                 width={600}
                 height={800}
                 alt="Picture of the tshirt"
@@ -55,9 +55,9 @@ export default function Male(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/kid1.png"
+                    src="/man6.jpg"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -67,9 +67,9 @@ export default function Male(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/man7.jpg"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -79,9 +79,9 @@ export default function Male(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/man8.jpg"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -91,9 +91,9 @@ export default function Male(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/man9.jpg"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"

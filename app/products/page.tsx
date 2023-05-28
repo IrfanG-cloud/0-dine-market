@@ -5,11 +5,11 @@ import Link from 'next/link'
 export default function Products() {
   return (
     <div className="w-full mt-20">
-        <div className='grid grid-cols-1 md:grid-cols-4 gap-x-1 px-6'>
+        <div className='grid grid-cols-1 md:grid-cols-4 gap-x-2 px-6'>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
             <Image
-                src="/pro1.png"
+                src="/kid3.png"
                 width={600}
                 height={800}
                 alt="Picture of the tshirt"
@@ -19,9 +19,9 @@ export default function Products() {
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/kid1.png"
+                    src="/kid4.jpg"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -31,9 +31,9 @@ export default function Products() {
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/kid5.jpg"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -43,9 +43,9 @@ export default function Products() {
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
             <Image
-                src="/pro1.png"
+                src="/kid6.jpg"
                 width={600}
                 height={800}
                 alt="Picture of the tshirt"
@@ -55,9 +55,9 @@ export default function Products() {
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/kid1.png"
+                    src="/women5.png"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -67,9 +67,9 @@ export default function Products() {
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/women6.png"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -79,9 +79,22 @@ export default function Products() {
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/women7.png"
+                    width={600}
+                    height={800}
+                    alt="Picture of the tshirt"
+                />
+                <span>$220</span>
+                <h3>Comfort Grey Sneakers</h3>
+            </Link>
+        </div>
+
+        <div className="item py-4">
+            <Link href="/products/id">
+                <Image
+                    src="/man7.jpg"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -91,9 +104,21 @@ export default function Products() {
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/man8.jpg"
+                    width={600}
+                    height={800}
+                    alt="Picture of the tshirt"
+                />
+                <span>$220</span>
+                <h3>Comfort Grey Sneakers</h3>
+            </Link>
+        </div>
+        <div className="item py-4">
+            <Link href="/products/id">
+                <Image
+                    src="/man9.jpg"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"

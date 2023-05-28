@@ -2,12 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Female(){
+export default function Female( { }){
+
   return (
     <div className="w-full mt-20">
         <div className='grid grid-cols-1 md:grid-cols-4 gap-x-1 px-6'>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
             <Image
                 src="/pro1.png"
                 width={600}
@@ -19,9 +20,9 @@ export default function Female(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/kid1.png"
+                    src="/women1.png"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -31,9 +32,9 @@ export default function Female(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/women2.png"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -43,9 +44,9 @@ export default function Female(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
             <Image
-                src="/pro1.png"
+                src="/women3.png"
                 width={600}
                 height={800}
                 alt="Picture of the tshirt"
@@ -55,9 +56,9 @@ export default function Female(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/kid1.png"
+                    src="/women4.png"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -67,9 +68,9 @@ export default function Female(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/women5.png"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -79,9 +80,9 @@ export default function Female(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/women6.png"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
@@ -91,9 +92,9 @@ export default function Female(){
             </Link>
         </div>
         <div className="item py-4">
-            <Link href="/products">
+            <Link href="/products/id">
                 <Image
-                    src="/man2.jpg"
+                    src="/women7.png"
                     width={600}
                     height={800}
                     alt="Picture of the tshirt"
