@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: rgb(18, 18, 18);
+  --primary-color: rgb(0, 0, 0);
 }
 
 /* Hide Scrollbar for chrome, safari and opera */
