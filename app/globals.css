@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: rgb(0, 0, 0);
+  --primary-color: #000000;
 }
 
 /* Hide Scrollbar for chrome, safari and opera */
@@ -15,9 +15,5 @@ body::-webkit-scrollbar{
   background-image: url(/bg.jpg);
 }
 
-.left-image{
-  background-image: url(/banner-left.jpg)
-}
-.right-image{
-  background-image: url(/banner-righ.jpg)
-}
+
+
