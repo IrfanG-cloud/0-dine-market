@@ -25,14 +25,14 @@ export default function page() {
                 </div>
 
                 <div>
-                {/* onClick={() => increment()} */}
-                <button className="text-black font-bold text-2xl p-2 rounded-full hover:bg-[#cdcdcd]" >
-                +
-                </button>
-                <span>0</span>
                 {/* onClick={() => decrement()} */}
                 <button className="text-black text-2xl font-bold p-2 rounded-full hover:bg-[#cdcdcd]" >
                 -
+                </button>
+                <span>0</span>
+                {/* onClick={() => increment()} */}
+                <button className="text-black font-bold text-2xl p-2 rounded-full hover:bg-[#cdcdcd]" >
+                +
                 </button>
                 </div>
             </div>

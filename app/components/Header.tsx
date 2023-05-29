@@ -41,7 +41,7 @@ export default function Header() {
 
                 <div className='hidden border borbor-l-0 p-1 ml-2 mr-2 md:flex'>
                     <FaSearch className='pt-1'/>
-                    <input className='ml-2 mr-2 w-[300px] ' type="text" placeholder="What you looking for"  />
+                    <input className='ml-2 mr-2 w-[450px] ' type="text" placeholder="What you looking for"  />
                 </div>
                 
                 
