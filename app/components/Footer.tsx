@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <div className='w-full bg-[#000]'>
       <div className='justify-between px-6 py-10 md:flex lg:flex'>
-        <div className='text-[#4f4f4f] pointer'>
-          <div >
-          <h3 className='text-2xl font-bold mb-2'>O Dine Market</h3>
+        <div className='text-[#4f4f4f] pointer py-4 text-center md:text-start'> 
+          <div className='' >
+          <h3 className='text-2xl font-bold mb-2 '>O Dine Market</h3>
           <p className='py-4'>Small, artisan label that offers a thoughtfully curated <br/>collection of high quality everyday essentials made.</p>
           </div>
          <div className='py-4 '>
@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
 
 
-        <div className='text-[#4f4f4f]'>
+        <div className='text-[#4f4f4f] py-4 text-center md:text-start'>
           <h3 className='text-2xl font-bold mb-4'>Company</h3>
           <ul className=''>
             <Link href=""><li className=' text-[#4f4f4f] hover:text-[#fff] mb-2'>About</li></Link>
@@ -32,7 +32,7 @@ export default function Footer() {
             <Link href=""><li className=' text-[#4f4f4f] hover:text-[#fff] mb-2'>Privacy Policy</li></Link>
           </ul>
         </div>
-        <div className='text-[#4f4f4f]'>
+        <div className='text-[#4f4f4f] py-4 text-center md:text-start'>
           <h3 className='text-2xl font-bold mb-4'>Support</h3>
           <ul className=''>
             <Link href="" className=' text-[#4f4f4f] hover:text-[#fff] mb-2'><li>Support </li></Link>
@@ -42,7 +42,7 @@ export default function Footer() {
             <Link href="" className=' text-[#4f4f4f] hover:text-[#fff] mb-2'><li>Contact us</li></Link>
           </ul>
         </div>
-        <div className='text-[#4f4f4f]'>
+        <div className='text-[#4f4f4f] py-4 text-center md:text-start'>
           <h3 className='text-2xl font-bold mb-4'>Contact</h3>
           <ul className=''>
             <Link href="" className=' text-[#4f4f4f] hover:text-[#fff] mb-2'><li>Whatsapp </li></Link>
