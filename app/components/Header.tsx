@@ -3,17 +3,28 @@
 import Link from 'next/link'
 import { useState } from "react"
 import { FaBars, FaTimesCircle, FaCartPlus, FaSearch} from "react-icons/fa"
+import Image from 'next/image'
 
 export default function Header() {
     const [navbar, setNavbar] = useState( false )
 
   return (
+    <>
     <nav className='w-full justisfy-between fixed top-0 right-0 z-20 bg-white py-2'>
         <div className='justify-between px-6 mx-auto md:flex md:items-center md;px-8 lg:max-w-8xl'>
             <div className='w-full flex justify-between md:items-center md:py-0'>
                 <div>
-                    <Link href="/">
+                    {/* <Link href="/">
                         <h1 className='text-xl pt-1 text-[#000] md:text-2xl md:pt-0'>O-Dine-Market</h1>
+                    </Link> */}
+                    <Link href="/">
+                        <Image
+                            src="/logo.png"
+                            alt="logo"
+                            width={200}
+                            height={200}
+                            className='text-xl pt-1 text-[#000] md:text-2xl md:pt-0'
+                        />
                     </Link>
                 </div>
                 <div className={`bg-white flex-1 justify-self-center pb-3 mt-13 md:block md:pb-0 md:mt-0 ${ navbar ? 'p-15 md:p-0 block' : 'hidden'}`}>
@@ -52,6 +63,7 @@ export default function Header() {
             </div>
         </div>
     </nav>
+    </>
   )
 }
 

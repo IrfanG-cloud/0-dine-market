@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 export const metadata = {
-  title: 'O-DINE-MARKET',
+  title: 'FatimaAlhaj',
 }
 
 export default function RootLayout({
